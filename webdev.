@@ -1,0 +1,122 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible"content="ie=edge">
+    <title> css intro</title>
+    <style>
+        
+        div{
+            color:blue;
+            font-size: 32px;
+            /* 1em=16px (px=pixel)*/
+        }
+   
+        img{
+            border-width: 15px;
+            border-color:black;
+            border-style: solid;
+         /*shortcut border: 10px black solid;*/
+        }
+       img#a1{
+        border: 10px violet solid;
+       }
+        
+    </style>
+</head>
+<body>
+    
+    <div></div>
+    <div> html and <strong>css</div></div>
+    <img src="./pp">
+    <img src="./wel.jpg" id="a1">
+</body>
+</html>
+    HTML:
+    em tag is used to bend the content(like italics)
+    anything written inside a "starting"" tag is called a attribute
+    TAG USED TO CONNECT(OR JUMPT TO OTH WEBSITE)2 WEBPAGES IS <a>.href is a tag specific attribute
+        <a> is initially a inline tag.when there is more than 1 <a> it can be made block level by using css property 
+            by using display:block;.which makes teh 2nd a tag go to the next line
+        if the link given is not correct then it shows error as  cannot get webpage_name
+        There are 3 types of attributes in html
+        1) tag specific
+        2) global attribute
+        3) event attribute
+        ex: <a href="some url" id="mylink" onclick="dosomething();"></a>
+        Here href is a tag specific attribute(i.e it can be only used with anchor tag)
+        id is a global attribute(i.e which can be used with any tag,such as div,p,img etc..)
+        onclick is an event attribute
+        <dd> tag is used to move the selected character inside the tag to be shown in the new line.
+                                                !!!!!!!!!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a#a1
+        { 
+                  
+            border-style: solid;
+            border-color: yellow;
+            border-width: 5px;   
+            background-color: blue;
+
+            font-size: 31px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-shadow: 1px 1px 5px   rgb(0, 0, 0);/* text shadow format- x y color */
+            
+        }
+    </style>
+</head>
+<body>
+    <a href="https://drive.google.com/drive/folders/1RTf7kU-_DeqXrRxq-F104_rP5HuNif_H" id="a1"><em><strong> go to google website</strong></em></a> 
+</body>
+</html>
+                      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    block level tags are always parent and inline tags are
+CSS` code always starts just before ending of head tag and starts officially with <style></style> tag
+ 
+  in the above codered is the value,color is the property,div signifies the element/tag .
+  CSS selectors are used to find the html elements we want to style
+  they are divided into 5 categories
+  : simple selector(select tags based on certain state)
+  :combination selectors(select tags based on a soecific relationship between them)
+  :pseudo class selectors: select and style a part of a tag
+  : attribute selectors:(selects tags based on a attribute/attribute value)
+    selector in css: it is used to select html elements which we wamt to style
+ 1) simple selector:(select elemts bases on name ,id class)
+ synatx:  tag {
+    property(which we want to change):value;
+ }   
+ex: div{
+    color:red;
+}
+simple selector backlift: it applies same filter to all selcted images,files etcc
+2): ID SELECTOR: it is used to ASSIGN DIFFERENT properties TO ELEMENTS OF HTML PROG AND ALSO DIFF PROPERTIES
+syntax:  element#id_name
+{
+    PROPERTY:VALUE(<img src="" id="id_name">) id name should always start and end with alphabet
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+     h1{
+        font-size:60px;
+        text-shadow:10px 20px  blur(px) black;
+     }
+</style>
+</head>
+<body>
+    <h1>hello</h1> 
+</body>
+</html>
